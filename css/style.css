@@ -60,6 +60,9 @@ h3 {
  .sorting__view input:checked[type="checkbox"] {
     background: #ebebeb;
 }
+ #color {
+     width: 100px;
+ }
 
 .sorting__view input:checked[type="checkbox"]::before {
     left: 17px;
