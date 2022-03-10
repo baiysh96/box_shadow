@@ -5,14 +5,15 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
     <title>Box Shadow Generator</title>
 </head>
 <body>
-<section class="header">
- <div class="container header__container">
+<section class="wrapper">
+ <div class="container wrapper__container">
      <div class="control_panel">
-         <h2>Box Shadow options</h2>
+         <h1>Box Shadow Generator</h1>
          <div class="sorting__view">
              <label for="check"></label>
              <h3>External <input type="checkbox" class="check__box" id="check"> Internal </h3>
@@ -32,7 +33,9 @@
          <input type="range" value="0.75%" min="0" max="0.99%" class="op-color" id="opacity">
      </div>
      <div class="content">
-         <div class="block "></div>
+         <div class="content__item">
+             <div class="block "></div>
+         </div>
          <textarea class="out" disabled> box-shadow: 10px,10px,5px,0 rgba(0, 0, 0, 1)</textarea>
          <button class="copy">Copy</button>
      </div>
