@@ -12,16 +12,36 @@
     .container {
         max-width: 540px;
     }
-    .wrapper__container {
+    .row {
         display: block;
+
     }
 }
 @media (max-width: 540px) {
     .container {
         max-width: none;
     }
-    .wrapper__container {
-        display: block;
+    .content__item {
+        height: 300px;
+    }
+    .block {
+        width: 100px;
+        height: 100px;
+    }
+    .control_panel {
+        height: 500px;
+        width: 250px;
+        margin-bottom: 20px;
+    }
+    .out {
+        width: 200px;
+        height: 160px
+    }
+    input {
+        margin-bottom: 20px;
+    }
     }
 
-}
+
+
+

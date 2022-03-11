@@ -15,13 +15,23 @@ body {
     margin: 0 auto;
     padding: 0 15px;
 }
+.row {
+    display: flex;
+
+}
+.col-6 {
+    width: 50%;
+}
+.col-4 {
+    width: 33.333%;
+}
 .wrapper__container {
     display: flex;
     padding: 50px;
 }
 .control_panel {
     padding: 20px;
-    height: 550px;
+    height: 500px;
     width: 400px;
 }
 h2 {
@@ -81,7 +91,7 @@ input {
     text-align: center;
 }
 .content__item {
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.59);
     height: 600px;
     padding: 150px 0;
     margin: 0 auto;
@@ -89,8 +99,8 @@ input {
 }
 .block {
     border-radius: 8px;
-    width: 260px;
-    height: 220px;
+    width: 270px;
+    height: 250px;
     background-color: indianred;
     margin: 0 auto;
     box-shadow: 10px 5px 5px 0 rgba(0, 0 , 0, 1);

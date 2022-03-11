@@ -11,8 +11,8 @@
 </head>
 <body>
 <section class="wrapper">
- <div class="container wrapper__container">
-     <div class="control_panel">
+ <div class="container row wrapper__container">
+     <div class=" col-4 control_panel">
          <h1>Box Shadow Generator</h1>
          <div class="sorting__view">
              <label for="check"></label>
@@ -32,14 +32,13 @@
          <label for="opacity">Box Shadow Color Opacity</label>
          <input type="range" value="0.75%" min="0" max="0.99%" class="op-color" id="opacity">
      </div>
-     <div class="content">
+     <div class=" col-6 content">
          <div class="content__item">
              <div class="block "></div>
          </div>
          <textarea class="out" disabled> box-shadow: 10px,10px,5px,0 rgba(0, 0, 0, 1)</textarea>
          <button class="copy">Copy</button>
      </div>
-
  </div>
 </section>
 <script src="./js/script.js"></script>
