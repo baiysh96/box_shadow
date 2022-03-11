@@ -122,6 +122,7 @@ input {
     margin: 40px  auto ;
     resize: none;
     display: block;
+    text-decoration-color: white;
 }
 .copy {
     border: none;
